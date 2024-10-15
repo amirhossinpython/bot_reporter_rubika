@@ -12,6 +12,9 @@ try:
     from rubpy.types import Updates
 except ImportError :
     install("rubpy")
+    from rubpy import Client, filters
+    from rubpy.enums import ReportType
+    from rubpy.types import Updates
     
 bot = Client(name='reporting')
 info = """
