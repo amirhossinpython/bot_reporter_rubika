@@ -13,7 +13,7 @@ try:
 except ImportError :
     install("rubpy")
     
-bot = Client(name='Ai_bot')
+bot = Client(name='reporting')
 info = """
 # توضیحات ربات
 
